@@ -1,6 +1,9 @@
+[![ENGINYRING](https://cdn.enginyring.com/img/logo_dark.png)](https://www.enginyring.com)
+
+
 # GGUF Hybrid Memory Manager for ComfyUI
 
-A custom ComfyUI node set that implements a “hybrid” memory strategy for GGUF‐based models.  
+A custom ComfyUI node set that implements a “hybrid” memory strategy for GGUF‐based models. It does **not** work on regular SafeTensor models.
 This allows parts of a large UNet/CLIP/VAE to live in CPU RAM when VRAM is insufficient, avoiding OOMs and improving stability.
 
 ---
